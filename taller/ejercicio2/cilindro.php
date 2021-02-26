@@ -36,10 +36,10 @@
             <br><br><br><br>
             <form action="cilindro.php" method="POST">
 
-                <label>Ingresa el tamaño de el radio:</label>
+                <label>Ingresa el tamaño de el radio en (mm):</label>
                 <input type="text" id="numero" name="radio" required />
                 <br><br>
-                <label>Ingresa el tamaño de la altura:</label>
+                <label>Ingresa el tamaño de la altura en (mm):</label>
                 <input type="text" id="numero" name="altura" required />
                 <input type="submit" id="enviar" name="submit" value="Obtener" class="submit" />
             </form>

@@ -36,7 +36,7 @@
             <br><br><br><br>
             <form action="esfera.php" method="POST">
 
-                <label>Ingresa el diametro en (m):</label>
+                <label>Ingresa el diametro en (mm):</label>
                 <input type="text" id="numero" name="diametro" required />
                 <input type="submit" id="enviar" name="submit" value="Obtener" class="submit" />
             </form>

@@ -36,7 +36,7 @@
             <br><br><br><br>
             <form action="cubo.php" method="POST">
 
-                <label>Ingresa el tamño de la arista:</label>
+                <label>Ingresa el tamño de la arista en (mm):</label>
                 <input type="text" id="numero" name="arista" required />
                 <input type="submit" id="enviar" name="submit" value="Obtener" class="submit" />
             </form>
