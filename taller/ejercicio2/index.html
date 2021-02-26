@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>Menu Desplegable</title>
+        <link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body background="img/fondo.jpg">
+		<div id="header">
+			<ul class="nav">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="">Servicios</a>
+					<ul>
+						<li><a href=esfera.php>Esfera.</a></li>
+						<li><a href="cubo.php">Cubo.</a></li>
+						<li><a href="cilindro.php">Cilindro.</a></li>
+						<li><a href="javascript:cerrar();">Salir.</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</body>
+    <!-- utilizamos nuevamente javascript en las paginas del mini sistema para poder cerrarlo,
+    en cuanto el usuario desee salir de el-->
+    <script language="javascript" type="text/javascript"> 
+        function cerrar() { 
+            window.open('','_parent',''); 
+            window.close(); 
+        } 
+    </script>
+</html>
