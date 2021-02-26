@@ -29,8 +29,11 @@ scale=1.0,maximum-scale=1.0,minimum-scale=1.0" />
                                 
                                 //definimos todas las variables con las respectivas asignaciones que usaremos en
                                 $contadorPares=0;
-                                $constanteNumeros = 12;
-                                $constantePorcentaje = 100;
+                                
+                                //definimos las constantes
+                                define("constanteNumeros", "12");
+                                define("constantePorcentaje", "100");
+
                                 //definimos los arreglos que necesitaremos 
                                 $numerosPositivos=array();
                                 $numerosIngresados=array();
@@ -67,7 +70,7 @@ scale=1.0,maximum-scale=1.0,minimum-scale=1.0" />
                                 }
 
                                 //procesamos los numeros pares que encontramos en los numeros que ingreso el usuario
-                                $resultadoPorcentaje = ($contadorPares * $constanteNumeros)/$constantePorcentaje;
+                                $resultadoPorcentaje = ($contadorPares * constanteNumeros)/constantePorcentaje;
 
                                 //imprimimos por pantalla el porcentaje de numeros pares
                                 //primero verificamos si hubieron datos para mostrar un porcentaje
